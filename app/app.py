@@ -7,6 +7,3 @@ app = Flask(__name__)
 @app.route('/hello/<string:name>')
 def hello(name=None):
     return render_template('app.html', name=name)
-
-if __name__ == "__main__":
-    app.run()
