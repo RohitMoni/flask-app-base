@@ -1,8 +1,10 @@
 # Basic Python Flask Scaffold
 
-To install:
+## Setup Instructions:
 
-(Optional)
-Set up a virtual environment and activate it
+1. Edit setup.py to match the new app (name, etc)
 
-Run pip install .[dev]
+2. Set up the python environment:
+   
+   Can run one of the scripts in `tools/setup_env`.
+   If you're using VSCode (recommended), run the setup environment build task.
