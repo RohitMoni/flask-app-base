@@ -17,6 +17,9 @@ if (!(Test-Path $FullEnvPath)) {
 # Activate the environment
 & "$FullEnvPath/Scripts/Activate.ps1"
 
+# Update pip
+python -m pip install --upgrade pip
+
 # Install non-package dependencies
 pip install pip-autoremove
 
